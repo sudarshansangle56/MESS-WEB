@@ -1,0 +1,393 @@
+body {
+  font-family: "Poppins";
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+
+}
+
+.login {
+  position: absolute;
+  right: 10px;
+
+}
+
+.parta {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 4vh;
+}
+
+.parta1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3vh;
+  padding: 4vh;
+}
+
+.parta1 button:hover {
+
+  width: 140px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.30s;
+}
+
+.parta1 button {
+  width: 135px;
+  height: 57px;
+  font-size: 2.5vh;
+  padding: 4px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.30s;
+}
+
+.parta1 h1 {
+
+  font-size: 7.5vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.parta1 p {
+
+  font-size: 3vh;
+}
+
+.parta2 {
+
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 3vh;
+  margin: 4vh;
+
+}
+
+.parta2 img {
+
+  height: 430px;
+  width: 600px;
+}
+
+.partb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+.partb1 {}
+
+.partb2 {
+
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5vh;
+
+}
+
+
+
+.partc {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+
+}
+
+/*ok*/
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3vh;
+  margin: 4vh;
+}
+.location img {
+  height: 350px;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.payment img {
+  height: 350px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.payment {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3vh;
+  margin: 4vh;
+
+}
+
+
+
+
+
+
+.CardM1 {
+  margin-top: 4vh;
+}
+
+.card:hover {
+  width: 20rem;
+  background-color: #f1f157;
+  font-size: 2.2vh;
+  transition: 0.30s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 30px 3px rgba(0, 0, 0, 0.19);
+
+
+
+}
+
+.card img {
+  border-radius: 2.5vh;
+  padding: 5px;
+}
+
+.card button:hover {
+  font-size: 2.5vh;
+  background-color: #333;
+  color: #fff;
+  transition: 0.30s;
+}
+
+/* about page css*/
+
+.about1 {
+  height: 350px;
+  width: 500px;
+  background-color: silver;
+  border-radius: 3vh;
+  padding: 40px;
+  margin: 3vh;
+}
+.about1 img{
+  height: 70px;
+  width: 71px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4vh;
+}
+.rev{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+
+.aboutpage {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*navbar make changes */
+.navbar1 h2{
+  color: #fff;
+  padding: 3px;
+  font-size: 4vh;
+  align-items: center;
+ }
+.navbar1 img{
+
+  border-radius: 5vh;
+  padding: 0.5vh;
+}
+
+/* css progerss bar */
+
+
+
+@keyframes progress {
+  0% { --percentage: 0; }
+  100% { --percentage: var(--value); }
+}
+
+@property --percentage {
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 0;
+}
+
+[role="progressbar"] {
+  --percentage: var(--value);
+  --primary: #369;
+  --secondary: #adf;
+  --size: 300px;
+  animation: progress 2s 0.5s forwards;
+  width: var(--size);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+[role="progressbar"]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: conic-gradient(var(--primary) calc(var(--percentage) * 1%), var(--secondary) 0);
+  mask: radial-gradient(white 55%, transparent 0);
+  mask-mode: alpha;
+  -webkit-mask: radial-gradient(#0000 55%, #000 0);
+  -webkit-mask-mode: alpha;
+}
+
+[role="progressbar"]::after {
+  counter-reset: percentage var(--value);
+  content: counter(percentage) '%';
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+  color: var(--primary);
+}
+
+
+
+
+/* login page css
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form, .register-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+ */
+.cardbtn button {
+  width: 90%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Footer12 {
+  padding: 5vh;
+  background-color: #333;
+  color: white;
+  border-radius: 3vh;
+  margin: 2vh;
+}
+
+
+
+
+@media screen and (min-width: 325px) and (max-width: 500px) {
+
+  body {
+
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+
+  }
+
+  .Footer12 {
+   margin-top: 71vh;
+    margin-left: 2vh;
+  }
+
+  .partb1 {
+
+    margin: 3vh;
+  }
+
+  .navbtn button {
+
+    margin-right: 2vh;
+
+  }
+
+  .aboutpage{
+    padding: 45px;
+    
+  }
+  .about1 {
+    height: 420px;
+    width: 350px;
+    background-color: silver;
+    border-radius: 3vh;
+    padding: 40px;
+    margin: 4vh;
+  }
+
+}
