@@ -49,7 +49,7 @@ function Home() {
             Headl="Our meals offer a nutritious blend of whole grains, vegetables, pulses, and spices, providing essential nutrients such as proteins, carbohydrates, and fiber, all while ensuring delightful flavors."
           />
           <CardMenu
-            link="/IMAGES/Screenshot 2024-03-08 230039.png"
+            link="https://www.shutterstock.com/image-photo/indian-vegetarian-lunch-box-tiffin-260nw-1781289758.jpg"
             title="Tuesday"
             Headl="Indulge in our flavorful meals crafted with a balanced mix of wholesome ingredients, including whole grains, fresh vegetables, and aromatic spices, ensuring a nourishing."
           />

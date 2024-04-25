@@ -102,7 +102,7 @@ function Footer() {
 
           <div className="col-md-5 offset-md-1 mb-3">
             <form>
-              <h5>"Share Your Valuable Feedback with Us</h5>
+              <h5>Share Your Valuable Feedback with Us</h5>
               <p>Stay Connected stay safe </p>
               <div className="d-flex flex-column flex-sm-row w-100 gap-2">
                 <label htmlFor="newsletter1" className="visually-hidden">
