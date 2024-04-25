@@ -14,7 +14,7 @@ function Navbar() {
             alt="MESS"
             style={{ height: "68px" }}
           />
-          <h2>MESS</h2>
+       
           <div className="navbtn">
             <button
               class="navbar-toggler"
@@ -47,13 +47,13 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <Link className="nav-link active" to="/Attendence">
-                  Attendence
+                  Record
                 </Link>
               </li>
               <div className="login12">
               <li className="nav-item">
                 <Link className="nav-link active" to="/Login">
-                  Login
+                  Show Record
                 </Link>
               </li>
               </div>

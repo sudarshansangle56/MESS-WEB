@@ -1,21 +1,18 @@
 import React from "react";
 import Navbar from "../Componet/Navbar";
 import Footer from "../Componet/Footer";
+import TiffinManagementSystem from "./tiffin_rec";
+
+
+
 
 function Attendence() {
   return (
     <div>
       <Navbar />
-      <div className="bar1">
-      <h1>Student Attendance System</h1>
-        <div
-          role="progressbar"
-          aria-valuenow={67}
-          aria-valuemin={0}
-          aria-valuemax={100}
-          style={{ "--value": "55" }}
-        ></div>
-      </div>
+        <div>
+          <TiffinManagementSystem />
+        </div>
       <Footer />
     </div>
   );

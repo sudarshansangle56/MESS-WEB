@@ -101,6 +101,9 @@ body {
   margin: 5vh;
 
 }
+.both2 h2{
+  text-align: center;
+}
 
 
 
@@ -221,9 +224,10 @@ body {
 /*navbar make changes */
 .navbar1 h2{
   color: #fff;
-  padding: 3px;
-  font-size: 4vh;
-  align-items: center;
+
+  
+ 
+
  }
 .navbar1 img{
 
@@ -348,6 +352,30 @@ h2 {
   border-radius: 3vh;
   margin: 2vh;
 }
+  /* middle page */
+ /* MiddlePage.css */
+
+.facility-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.facility {
+  margin: 20px;
+  text-align: center;
+}
+
+.facility img {
+  width: 100px; /* Adjust according to your preference */
+  height: 100px; /* Adjust according to your preference */
+}
+
+.facility h3 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
 
 
 
@@ -389,5 +417,7 @@ h2 {
     padding: 40px;
     margin: 4vh;
   }
+
+
 
 }

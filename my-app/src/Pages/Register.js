@@ -51,8 +51,8 @@ function Register() {
         />
         <Acard
          Link1="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/resizedimageskirti/164_compress.png"
-          Headline="Virat Kholi"
-          paragraph="  Ram ke chole batro every query of “tiffin service
+          Headline="Aditiya"
+          paragraph=" “tiffin service
               near me” or “homemade food near me”. We deliver your meal all over
               Mumbai including Andheri, Bandra, Lower Parel, Churchgate, Dadar,
               Nariman Point, Vile-Parle Santacruz, Goregaon, Fort, Mahalaxmi,

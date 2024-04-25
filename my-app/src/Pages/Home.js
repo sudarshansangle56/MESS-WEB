@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "../Componet/Navbar";
 import CardMenu from "../Componet/CardMenu";
 import Footer from "../Componet/Footer";
-import Card from "../Componet/Card";
+
+
 
 function Home() {
   return (
@@ -12,7 +13,7 @@ function Home() {
       <div className="parta">
         <div className="parta1">
           <h1>
-            India's First <br />
+             First <br />
             Customized Online <br />
             Tiffin Service
           </h1>
@@ -21,17 +22,18 @@ function Home() {
             dietician in any part of Mumbai. <br /> It’s all homemade… "Ghar ka
             khana just the way you want."
           </p>
-          <button>order Now</button>
+          <button>Show More</button>
         </div>
         <div className="parta2">
-          <Card />
+         <img src="/IMAGES/Screenshot 2024-03-08 230039.png" alt="" srcset="" />
         </div>
       </div>
+ 
       <div className="partb">
         <div className="partb1">
           <h1>MEAL PLANS</h1>
           <h3>
-            Affordable * Calorie-counted * Daily Changing Menu * Customizable
+            Affordable Calorie-counted Daily Changing Menu  Customizable
             Weekly/Monthly Plans
           </h3>
           <p>
@@ -44,37 +46,37 @@ function Home() {
           <CardMenu
             link="/IMAGES/Screenshot 2024-03-08 230039.png"
             title="MONDAY"
-            Headl="ur meals are a healthy combination of whole grains, veggies, pulses and spices and provide essential nutrients like proteins, carbohydrates, fibre etc without compromising on taste."
+            Headl="Our meals offer a nutritious blend of whole grains, vegetables, pulses, and spices, providing essential nutrients such as proteins, carbohydrates, and fiber, all while ensuring delightful flavors."
           />
           <CardMenu
             link="/IMAGES/Screenshot 2024-03-08 230039.png"
             title="Tuesday"
-            Headl="ur meals are a healthy combination of whole grains, veggies, pulses and spices and provide essential nutrients like proteins, carbohydrates, fibre etc without compromising on taste."
+            Headl="Indulge in our flavorful meals crafted with a balanced mix of wholesome ingredients, including whole grains, fresh vegetables, and aromatic spices, ensuring a nourishing."
           />
           <CardMenu
             link="/IMAGES/Screenshot 2024-03-08 230039.png"
             title="Wednesday"
-            Headl="ur meals are a healthy combination of whole grains, veggies, pulses and spices and provide essential nutrients like proteins, carbohydrates, fibre etc without compromising on taste."
+            Headl="Experience the perfect harmony of taste and nutrition with our meals, carefully prepared with a rich combination of whole grains, crisp veggies, and savory spices, delivering essential."
           />
           <CardMenu
             link="/IMAGES/Screenshot 2024-03-08 230039.png"
             title="Thursday"
-            Headl="ur meals are a healthy combination of whole grains, veggies, pulses and spices and provide essential nutrients like proteins, carbohydrates, fibre etc without compromising on taste."
+            Headl="Savor the goodness of our meals, thoughtfully curated with a medley of whole grains, vibrant vegetables, hearty pulses, and aromatic spices, providing a nutritious feast for your senses."
           />
           <CardMenu
             link="/IMAGES/Screenshot 2024-03-08 230039.png"
             title="Friday"
-            Headl="ur meals are a healthy combination of whole grains, veggies, pulses and spices and provide essential nutrients like proteins, carbohydrates, fibre etc without compromising on taste."
+            Headl="Enjoy the goodness of nature in every meal, as our dishes are meticulously crafted with the finest whole grains, farm-fresh vegetables, wholesome pulses, and flavorful spices, offering a nutritious culinary journey."
           />
           <CardMenu
             link="/IMAGES/Screenshot 2024-03-08 230039.png"
             title="Saturday"
-            Headl="ur meals are a healthy combination of whole grains, veggies, pulses and spices and provide essential nutrients like proteins, carbohydrates, fibre etc without compromising on taste."
+            Headl="Delight in the natural goodness of each meal, with our dishes expertly crafted using top-quality whole grains, fresh-from-the-farm vegetables, nutritious pulses, and fragrant spices, ensuring a wholesome dining experience."
           />
           <CardMenu
             link="/IMAGES/Screenshot 2024-03-08 230039.png"
             title="Sunday"
-            Headl="ur meals are a healthy combination of whole grains, veggies, pulses and spices and provide essential nutrients like proteins, carbohydrates, fibre etc without compromising on taste."
+            Headl="Savor the richness of nature in every dish, as our meals are carefully prepared with premium whole grains, farm-fresh vegetables, wholesome pulses, and aromatic spices, providing a nourishing culinary adventure."
           />
           <CardMenu
             link="/IMAGES/Screenshot 2024-03-08 230039.png"
@@ -107,6 +109,7 @@ function Home() {
       <div className="footer">
         <Footer />
       </div>
+      
     </div>
   );
 }

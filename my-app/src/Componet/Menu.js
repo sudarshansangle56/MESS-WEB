@@ -12,7 +12,7 @@ function Menu() {
           <CardMenu
             link="/IMAGES/Screenshot 2024-03-08 230039.png"
             title="MONDAY"
-            Headl="ur meals are a healthy combination of whole grains, veggies, pulses and spices and provide essential nutrients like proteins, carbohydrates, fibre etc without compromising on taste."
+            Headl="Our meals offer a nutritious blend of whole grains, vegetables, pulses, and spices, providing essential nutrients such as proteins, carbohydrates, and fiber, all while ensuring delightful flavors."
           />
           <CardMenu
             link="/IMAGES/Screenshot 2024-03-08 230039.png"
